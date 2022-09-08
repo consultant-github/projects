@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div>
+        <table style="width:10%" id="calculator-table">
+        <tr>
+            <input type="text" class="input" id="output-box">
+        </tr>
+        <tr>  
+            <td><button type = "button" class="number" id="7" value="7">7</button></td>
+            <td><button type = "button" class="number" id="8" value="8">8</button></td>
+            <td><button type = "button" class="number" id="9" value="9">9</button></td>
+            <td><button type = "button" class="operator" value="+" id="addBtn">+</button></td> 
+        </tr>
+        <tr>
+            
+            <td><button type = "button" class="number" id="4" value="4">4</button></td>
+            <td><button type = "button" class="number" id="5" value="5">5</button></td>
+            <td><button type = "button" class="number" id="6" value="6">6</button></td>
+            <td><button type = "button" class="operator" value="-" id="subtractBtn">-</button></td>
+            
+        </tr>
+        <tr>
+            <td><button type = "button" class="number" id="1" value="1">1</button></td>
+            <td><button type = "button" class="number" id="2" value="2">2</button></td>
+            <td><button type = "button" class="number" id="3" value="3">3</button></td>
+            <td><button type = "button" class="operator" value="x" id="multiplyBtn">x</button></td> 
+        </tr>
+        <tr>
+            <td><button type = "button" class="number" id="0" value="0" >0</button></td>
+            <td><button type = "button" class="number" id="." value=".">.</button></td>
+            <td><button type = "button" class="clear" id="C" value="C">C</button></td>
+            <td><button type = "button" class="operator" value="/" id="divideBtn">/</button></td>
+        </tr>
+  </table>
+</div>
+  <div>
+    <button type = "button" class="equals" id="=" value="=">=</button>
+  </div>
+<script src="calculator.js"></script>
+</body>
+</html>

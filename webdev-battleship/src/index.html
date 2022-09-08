@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Battleship Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="center">
+      <h1 id="title">Battleship Game</h1>
+      <img
+        src="/images/battleship-image.png" 
+        style="width:100px;height:100px";
+      />
+      <br />
+      <br />
+      <button input type="button" id="newGameBtn">Start New Game</button>
+      <h2>Enter a number from 1 to 10.</h2>
+
+      <form>
+        <input id="guessInput" type="text" size="1" onfocus="this.value=''" />
+        <button id="submitBtn" type="button">Submit</button>
+      </form>
+
+      <p id="guessOutput" style="line-height: 11px"></p>
+
+      <ul id="guessList">
+        <li id="guessListItem"></li>
+      </ul>
+
+      <p id="comment" ></p>
+
+      <script src="battleship.js"></script>
+    </div>
+  </body>
+</html>

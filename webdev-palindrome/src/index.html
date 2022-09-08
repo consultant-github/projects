@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Palindrome</title>
+<meta charset = "utf-8">
+    </head>
+<body>
+<div>
+<p>
+    <script>
+        var userEntry;
+        function checkForPalindrome(userEntry) {
+            var userEntryLength = userEntry.length;
+            var userEntryMid = userEntryLength/2;
+            for (var i = 0; i < userEntryMid; i++) {
+                if (userEntry[i] != userEntry[userEntryLength-i-1]) {
+                    return "The word you entered is not a palindrome.";
+                }
+            }
+            return "You entered a palindrome!"; 
+        }
+        userEntry = prompt ("Enter a word: ");
+        document.write(checkForPalindrome(userEntry));
+    </script>
+    </p></div>
+</body>
+</html>

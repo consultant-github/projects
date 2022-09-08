@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expenses</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Expenses</h1>
+  <div>
+   
+   <p class = "row-sum" id = "row-sum"></p>
+   <p id = "row-sum2"></p>
+   
+   <form id="form" >
+    <input type="date" id="date-input" name="date" placeholder="mm/dd/yyyy">
+    <input type="text" id="descr-input" name="descr" placeholder="description">
+    <input type="number" id="amount-input" name="amount" placeholder="amount" min="1">
+    <input type="text" id="vendor-input" name="vendor" placeholder="vendor">
+    <button type = "submit" id="add-btn">Add Expense</button> 
+   </form>
+        <table id="expense-tbl">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Amount</th>
+              <th>Vendor</th>
+              <th></th>
+          </thead>
+            <tbody id="tbl-body">
+            </tbody>
+        </table>
+        
+    </div>
+      
+    <script src="expense.js"></script>
+  </body>
+</html>

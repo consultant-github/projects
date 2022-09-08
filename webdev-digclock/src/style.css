@@ -1,0 +1,21 @@
+body {
+    background-color: gray;
+    }
+    .display-container {
+        margin-top: 15%;
+    }
+
+#time {
+    font-family: "Calibri", "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 5.5em;
+    color: white;
+    text-align: center;
+}
+
+#date {
+    font-family: "Calibri", "Trebuchet MS", Helvetica, sans-serif;
+    font-style:italic;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}

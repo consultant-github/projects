@@ -1,0 +1,45 @@
+.input {
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 36px;
+    width: 210px;
+}
+
+.number {
+    background:black;
+    border-radius: 8px;
+    color: white;
+    font-size: 36px;
+    padding: 3px;
+    text-align: center;
+    width: 50px;
+}
+
+.operator {
+    background: gray;
+    border-radius: 8px;
+    font-size: 36px;
+    padding: 3px;
+    text-align: center;
+    width: 50px;
+}
+
+.clear {
+    background: rgb(229, 229, 233);
+    border-radius: 8px;
+    color: black;
+    font-size: 36px;
+    padding: 3px;
+    text-align: center;
+    width: 50px;
+}
+
+.equals {
+    background: rgb(5, 81, 102);
+    border-radius: 8px;
+    color: white;
+    font-size: 36px;
+    padding: 3px;
+    text-align: center;
+    width: 215px;
+}

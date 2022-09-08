@@ -1,0 +1,38 @@
+body {
+    text-align:center
+  }
+  
+  input {
+    color: black;
+    width: 10;
+    height: 35px;
+    border: 2px solid black;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align:bottom;
+   }
+  
+  button {
+    padding: 7px;
+    height: 42px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #647265;
+    color:whitesmoke;
+  }
+  
+  p {
+    margin: 0.2em;
+    color: rgb(68, 66, 66);
+    width: 10;
+    height: 10px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+ ul {
+   list-style: none;
+   font-size: 1.5em;
+}  
