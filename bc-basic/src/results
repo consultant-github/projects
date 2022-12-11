@@ -1,0 +1,4 @@
+.txt
+
+Genesis block:  [{'index': 1, 'timestamp': 1629407531.4425187, 'transactions': [], 'proof': 100, 'previous_hash': 'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.'}, {'index': 2, 'timestamp': 1629407531.4425187, 'transactions': [{'sender': 'Satoshi', 'recipient': 'Mike', 'amount': '5 
+BTC'}, {'sender': 'Mike', 'recipient': 'Satoshi', 'amount': '1 BTC'}, {'sender': 'Satoshi', 'recipient': 'Hal Finney', 'amount': '5 BTC'}], 'proof': 12345, 'previous_hash': 'a3876601a63a47e31642547f9a60366f991e36db9d93f0023d5e20de1d1e7bcb'}, {'index': 3, 'timestamp': 1629407531.4425187, 'transactions': [{'sender': 'Mike', 'recipient': 'Alice', 'amount': '1 BTC'}, {'sender': 'Alice', 'recipient': 'Bob', 'amount': '0.5 BTC'}, {'sender': 'Bob', 'recipient': 'Mike', 'amount': '0.5 BTC'}], 'proof': 6789, 'previous_hash': '6f62a415580a644e3913dcc06d7e17b438d99fd64f73b1f2bb35694c43be1e0e'}]
