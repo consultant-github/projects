@@ -11,13 +11,13 @@ function App() {
             />
             
             <FAQ
-                question="FAQ # 1?" 
-                answer="Answer # 1"
+                question="FAQ # 2?" 
+                answer="Answer # 2"
             />
             
             <FAQ
-                question="FAQ # 1?" 
-                answer="Answer # 1"
+                question="FAQ # 3?" 
+                answer="Answer # 3"
             />
                     
         </div>
